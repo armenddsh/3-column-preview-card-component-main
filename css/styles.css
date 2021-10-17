@@ -39,20 +39,20 @@ main {
 .articles {
     min-width: var(--min-width-mobile);
     max-height: 132.6rem;
+    ;
 }
 
 .article {
     width: 32.7rem;
     height: 44.2rem;
+    overflow: auto;
 }
 
 .logo {
-    position: relative;
 }
 
 #sedan-logo {
-    content: "";
-    position: absolute;
+    display: block;
     margin: 4.8rem;
     background: url("../images/icon-sedans.svg") no-repeat;
     width: 100%;
@@ -60,8 +60,7 @@ main {
 }
 
 #suvs-logo {
-    content: "";
-    position: absolute;
+    display: block;
     margin: 4.8rem;
     background: url("../images/icon-suvs.svg") no-repeat;
     width: 100%;
@@ -69,8 +68,7 @@ main {
 }
 
 #luxury-logo {
-    content: "";
-    position: absolute;
+    display: block;
     margin: 4.8rem;
     background: url("../images/icon-luxury.svg") no-repeat;
     width: 100%;
