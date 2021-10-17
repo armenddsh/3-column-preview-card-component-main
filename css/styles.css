@@ -1,0 +1,64 @@
+/* 
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+*/
+:root {
+    --bright-organge: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    --min-width-desktop: 1440px;
+    --min-width-mobile: 375px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.articles {
+
+}
+
+.article {
+
+}
+
+.logo {
+
+}
+
+.title {
+
+}
+
+.description {
+
+}
+
+#sedans {
+
+}
+
+#suvs {
+
+}
+
+#luxury {
+
+}
+
+.learn-more {
+    
+}
