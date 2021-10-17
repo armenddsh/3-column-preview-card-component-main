@@ -24,6 +24,14 @@ html {
     font-size: 62.5%;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
 .articles {
     display: flex;
     flex-direction: row;
@@ -91,6 +99,13 @@ html {
     margin-top: 2.5rem;
     border-radius: 2rem;
     font-size: initial;
+}
+
+.learn-more:hover {
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    cursor: pointer;
 }
 
 .sedans-bg {
