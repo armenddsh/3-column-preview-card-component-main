@@ -131,11 +131,24 @@ html {
         flex-direction: row;
     }
 
+    .article:first-child {
+        transform: translate(0, 0rem);
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     .article:nth-child(2) {
         transform: translate(0, 0rem);
+        border-radius: 0;
     }
     
-    .article:nth-child(3) {
+    .article:last-child {
         transform: translate(0, 0rem);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
     }
 }
