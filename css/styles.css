@@ -50,7 +50,7 @@ main {
     position: relative;
 }
 
-.sedan-logo {
+#sedan-logo {
     content: "";
     position: absolute;
     margin: 4.8rem;
@@ -59,7 +59,7 @@ main {
     height: 4rem;
 }
 
-.suvs-logo {
+#suvs-logo {
     content: "";
     position: absolute;
     margin: 4.8rem;
@@ -68,7 +68,7 @@ main {
     height: 4rem;
 }
 
-.luxury-logo {
+#luxury-logo {
     content: "";
     position: absolute;
     margin: 4.8rem;
